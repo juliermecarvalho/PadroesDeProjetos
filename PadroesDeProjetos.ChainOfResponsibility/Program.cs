@@ -21,7 +21,7 @@ namespace PadroesDeProjetos.ChainOfResponsibility
 
 
 
-            Console.WriteLine(desconto);
+            Console.WriteLine("PadroesDeProjetos.ChainOfResponsibility: " +desconto);
 
 
         }

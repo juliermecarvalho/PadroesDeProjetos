@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PadroesDeProjetos.Strategy
 {
@@ -11,7 +7,7 @@ namespace PadroesDeProjetos.Strategy
         public void RealizaCalculo(Orcamento orcamento, IImposto imposto)
         {
             var calculo = imposto.Calcula(orcamento);
-            Console.WriteLine(calculo);
+            Console.WriteLine("PadroesDeProjetos.Strategy: " + calculo);
         }
 
       

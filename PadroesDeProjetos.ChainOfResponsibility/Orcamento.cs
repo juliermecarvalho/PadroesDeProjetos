@@ -19,9 +19,6 @@ namespace PadroesDeProjetos.ChainOfResponsibility
         {
             this.Itens.Add(item);
         }
-
-
-
         
     }
 }
