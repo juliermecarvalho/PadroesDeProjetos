@@ -9,13 +9,13 @@ namespace PadroesDeProjetos.ChainOfResponsibility
 
             var calculadorDeDescontos = new CalculadorDeDescontos();
 
-            var orcamento = new Orcamento(500);
+            var orcamento = new Orcamento(600);
             orcamento.AdicionaItem(new Item(250, "Caneta"));
             orcamento.AdicionaItem(new Item(250, "Lapis"));
             orcamento.AdicionaItem(new Item(250, "Lapis"));
             orcamento.AdicionaItem(new Item(250, "Lapis"));
-            //orcamento.AdicionaItem(new Item(250, "Lapis"));
-            //orcamento.AdicionaItem(new Item(250, "Lapis"));
+            orcamento.AdicionaItem(new Item(250, "Lapis"));
+            orcamento.AdicionaItem(new Item(250, "Lapis"));
 
             var desconto = calculadorDeDescontos.Calcula(orcamento);
 
