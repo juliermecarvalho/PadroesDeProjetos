@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadroesDeProjetos.ChainOfRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadroesDeProjetos.TemplateMethod", "PadroesDeProjetos.TemplateMethod\PadroesDeProjetos.TemplateMethod.csproj", "{E00B1863-3AAD-474E-A17A-E9A3E51F1549}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PadroesDeProjetos.Decorator", "PadroesDeProjetos.Decorator\PadroesDeProjetos.Decorator.csproj", "{BF8F4543-AD69-4EBA-952F-07D1251C575E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{E00B1863-3AAD-474E-A17A-E9A3E51F1549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E00B1863-3AAD-474E-A17A-E9A3E51F1549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E00B1863-3AAD-474E-A17A-E9A3E51F1549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8F4543-AD69-4EBA-952F-07D1251C575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8F4543-AD69-4EBA-952F-07D1251C575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8F4543-AD69-4EBA-952F-07D1251C575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8F4543-AD69-4EBA-952F-07D1251C575E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

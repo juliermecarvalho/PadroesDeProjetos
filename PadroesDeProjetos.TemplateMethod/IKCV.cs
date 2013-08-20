@@ -17,7 +17,7 @@ namespace PadroesDeProjetos.TemplateMethod
 
         public override double MaximaTaxacao(Orcamento orcamento)
         {
-            return orcamento.Valor * 0.1;
+            return orcamento.Valor * 0.01;
         }
 
         public override bool DeveUsarMaximaTaxacao(Orcamento orcamento)
